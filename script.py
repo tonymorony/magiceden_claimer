@@ -65,7 +65,8 @@ def mint():
         
         # extension setup done
 
-        # now enabling fantom on this shitty website
+        # now enabling phantom on this website
+
         select_wallet = driver.find_element(By.XPATH,"//*[@id='root']/div/div/div/div[2]/div[2]/div[2]/div/div[2]/div[3]/div[1]/div")
         select_wallet.click()
 
